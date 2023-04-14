@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+}
+
+.header {
+  flex: 2;
+  .topics {
+    display: flex;
+    flex-direction: column;
+  }
+}
