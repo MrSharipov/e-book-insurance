@@ -9,10 +9,17 @@
     padding: 15px 0;
   }
 
-  img {
+  .mainTopic {
     height: 50vh;
     width: 100%;
     object-fit: cover;
+  }
+
+  .imgIN {
+    width: 50vw;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 10%;
   }
 
   p {

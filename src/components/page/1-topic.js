@@ -10,6 +10,7 @@ export const TopicOne = () => {
         farqli jihatlari
       </h4>
       <img
+        className="mainTopic"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsazgrK44UTkyhpF49oJG5-DfhJ_QEDAzthHwyBpUyra42BZNdxRZznbRJJUaXn_MtGAA&usqp=CAU"
         alt="insurance"
       />
@@ -178,6 +179,7 @@ export const TopicOne = () => {
 
       <h4>1.2 Sug‘urta biznesining huquqiy asoslari</h4>
       <img
+        className="mainTopic"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsazgrK44UTkyhpF49oJG5-DfhJ_QEDAzthHwyBpUyra42BZNdxRZznbRJJUaXn_MtGAA&usqp=CAU"
         alt="insurance"
       />
@@ -475,6 +477,7 @@ export const TopicOne = () => {
 
       <h4>1.3 Sug‘urta tashkilotlarida biznes jarayonini tashkil etilishi</h4>
       <img
+        className="mainTopic"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsazgrK44UTkyhpF49oJG5-DfhJ_QEDAzthHwyBpUyra42BZNdxRZznbRJJUaXn_MtGAA&usqp=CAU"
         alt="insurance"
       />

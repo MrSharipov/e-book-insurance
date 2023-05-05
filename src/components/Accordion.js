@@ -25,34 +25,34 @@ function AccordianOne(props) {
           <AccordionHeader targetId="1">Topics</AccordionHeader>
           <AccordionBody accordionId="1">
           <Link to={"/intro"}>
-          <h4 className="topic">Introduction</h4>
+          <h6 className="topic">Kirish</h6>
         </Link>
         <Link to={"/one"}>
-          <h4 className="topic">Topic 1</h4>
+          <h6 className="topic">SUG‘URTA BIZNESI FANINING PREDMETI VA OB’YEKTI</h6>
         </Link>
         <Link to={"/two"}>
-          <h4 className="topic">Topic 2</h4>
+          <h6 className="topic">SUG‘URTA BIZNESINI SUG‘URTA FAOLIYATI BO‘YICHA TURKUMLANISHI</h6>
         </Link>
         <Link to={"/three"}>
-          <h4 className="topic">Topic 3</h4>
+          <h6 className="topic">SUG‘URTA MAHSULOTINI YARATISH VA UNI SOTISH TEXNOLOGIYASI</h6>
         </Link>
         <Link to={"/four"}>
-          <h4 className="topic">Topic 4</h4>
+          <h6 className="topic">SUG‘URTA BOZORINING INSTITUTSIONAL TUZILISHI VA UNING UMUMIY XARAKTERISTIKASI</h6>
         </Link>
         <Link to={"/five"}>
-          <h4 className="topic">Topic 5</h4>
+          <h6 className="topic">SUG‘URTA BIZNESIDA SUG‘URTA VOSITACHILARNING TUTGAN O‘RNI VA ULAR BILAN O‘ZARO MUNOSABATLARNI TASHKIL ETILISHI</h6>
         </Link>
         <Link to={"/six"}>
-          <h4 className="topic">Topic 6</h4>
+          <h6 className="topic">Topic 6</h6>
         </Link>
         <Link to={"/seven"}>
-          <h4 className="topic">Topic 7</h4>
+          <h6 className="topic">Topic 7</h6>
         </Link>
         <Link to={"/eight"}>
-          <h4 className="topic">Topic 8</h4>
+          <h6 className="topic">Topic 8</h6>
         </Link>
         <Link to={"/nine"}>
-          <h4 className="topic">Topic 9</h4>
+          <h6 className="topic">Topic 9</h6>
         </Link>
           </AccordionBody>
         </AccordionItem>

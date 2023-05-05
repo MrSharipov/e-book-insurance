@@ -5,7 +5,7 @@ export const TopicZero = () => {
   return (
     <div className="page">
       <h3>Kirish</h3>
-      <img
+      <img className="mainTopic"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsazgrK44UTkyhpF49oJG5-DfhJ_QEDAzthHwyBpUyra42BZNdxRZznbRJJUaXn_MtGAA&usqp=CAU"
         alt="insurance"
       />
