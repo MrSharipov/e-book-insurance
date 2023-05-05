@@ -1,7 +1,7 @@
 import React from "react";
 import "./page.scss";
 
-export const TopicTwo = () => {
+export const TopicSeven = () => {
   return (
     <div className="page">
       <h2>Lorem ipsum dolor sit amet.</h2>
