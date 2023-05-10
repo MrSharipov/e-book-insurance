@@ -22,7 +22,7 @@ function AccordianOne(props) {
     <div>
       <Accordion open={open} toggle={toggle}>
         <AccordionItem>
-          <AccordionHeader targetId="1">Topics</AccordionHeader>
+          <AccordionHeader targetId="1">Mundareja</AccordionHeader>
           <AccordionBody accordionId="1">
           <Link to={"/intro"}>
           <h6 className="topic">Kirish</h6>
@@ -57,15 +57,27 @@ function AccordianOne(props) {
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="2">Presentations</AccordionHeader>
+          <AccordionHeader targetId="2">Prezentatsiyalar</AccordionHeader>
           <AccordionBody accordionId="2">
           Presentations
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="3">Videos</AccordionHeader>
+          <AccordionHeader targetId="3">Video darslar</AccordionHeader>
           <AccordionBody accordionId="3">
             Videos
+          </AccordionBody>
+        </AccordionItem>
+        <AccordionItem>
+          <AccordionHeader targetId="4">Mustaqil ta'lim</AccordionHeader>
+          <AccordionBody accordionId="4">
+          Mustaqil 
+          </AccordionBody>
+        </AccordionItem>
+        <AccordionItem>
+          <AccordionHeader targetId="5">Mualliflar haqida</AccordionHeader>
+          <AccordionBody accordionId="5">
+          Mualliflar
           </AccordionBody>
         </AccordionItem>
       </Accordion>
