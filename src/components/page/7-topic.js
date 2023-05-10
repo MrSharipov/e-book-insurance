@@ -1,4 +1,5 @@
 import React from "react";
+import mainImg from "../../files/insurance.webp";
 import "./page.scss";
 
 export const TopicSeven = () => {
@@ -6,7 +7,8 @@ export const TopicSeven = () => {
     <div className="page">
       <h2>Lorem ipsum dolor sit amet.</h2>
       <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsazgrK44UTkyhpF49oJG5-DfhJ_QEDAzthHwyBpUyra42BZNdxRZznbRJJUaXn_MtGAA&usqp=CAU"
+        src={mainImg}
+        className="mainTopic"
         alt="insurance"
       />
       <p>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./page.scss";
+import mainImg from "../../files/insurance.webp";
 
 export const TopicOne = () => {
   return (
@@ -9,31 +10,26 @@ export const TopicOne = () => {
         1.1 Sug‘urta biznesi haqida tushuncha va uning boshqa biznes turlaridan
         farqli jihatlari
       </h4>
-      <img
-        className="mainTopic"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsazgrK44UTkyhpF49oJG5-DfhJ_QEDAzthHwyBpUyra42BZNdxRZznbRJJUaXn_MtGAA&usqp=CAU"
-        alt="insurance"
-      />
+      <img className="mainTopic" src={mainImg} alt="insurance" />
       <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biznes tushunchasi
-        bugungi kunda jamiyatni ajralmas qismiga aylanib qoldi. Xususiy
-        tadbirkorlik kapitalistik davlatlarning hal qiluvchi kuchiga aylandi.
-        Biznes – bu shaxsiy daromad, foyda olishga qaratilgan fuqarolarning
-        mustaqil faoliyatidir. Biznes faoliyati tadbirkorning o‘z nomidan, o‘z
-        mulkiy mas’uliyati va yuridik shaxsning yuridik mas’uliyati evaziga
-        amalga oshiriladi. Biznes qonun tomonidan ta’qiqlanmagan barcha turdagi
-        xo‘jalik faoliyatlari bilan shug‘ullanishi mumkin. Biznes faoliyati bu
-        tavakkalchilik asosida amalga oshiriladigan faoliyatdir. Biznesmen
-        (tadbirkorlik) so‘zi birinchi marotaba Angliya iqtisodiyotida XVIII
-        asrda paydo bo‘lib, u “Mulk egasi” degan ma’noni bildiradi. Jumladan,
-        Adam Smit tadbirkorni mulk egasi sifatida ta’riflab, uni foyda olish
-        uchun qandaydir tijorat g‘oyasini amalga oshirish maqsadida iqtisodiy
-        tavakkalchilikka boradigan kishidir, - deb ta’kidlaydi. Tadbirkorni
-        o‘zi, o‘z ishini rejalashtiradi, ishlab chiqarishni tashkil etadi,
-        mahsulotni sotadi va olgan daromadiga o‘zi ho‘jayinlik qiladi. Biznes -
-        bu avvalo ishlab chiqarishni tashkil etish, iqtisodiy faoliyat va
-        munosabatlar, hayotni o‘zi so‘ngra esa pul ishlash demakdir. Biznes- bu
-        xorijiy so‘zdir. U butun dunyo bo‘yicha tarqalgandir, undan barcha
+        Biznes tushunchasi bugungi kunda jamiyatni ajralmas qismiga aylanib
+        qoldi. Xususiy tadbirkorlik kapitalistik davlatlarning hal qiluvchi
+        kuchiga aylandi. Biznes – bu shaxsiy daromad, foyda olishga qaratilgan
+        fuqarolarning mustaqil faoliyatidir. Biznes faoliyati tadbirkorning o‘z
+        nomidan, o‘z mulkiy mas’uliyati va yuridik shaxsning yuridik mas’uliyati
+        evaziga amalga oshiriladi. Biznes qonun tomonidan ta’qiqlanmagan barcha
+        turdagi xo‘jalik faoliyatlari bilan shug‘ullanishi mumkin. Biznes
+        faoliyati bu tavakkalchilik asosida amalga oshiriladigan faoliyatdir.
+        Biznesmen (tadbirkorlik) so‘zi birinchi marotaba Angliya iqtisodiyotida
+        XVIII asrda paydo bo‘lib, u “Mulk egasi” degan ma’noni bildiradi.
+        Jumladan, Adam Smit tadbirkorni mulk egasi sifatida ta’riflab, uni foyda
+        olish uchun qandaydir tijorat g‘oyasini amalga oshirish maqsadida
+        iqtisodiy tavakkalchilikka boradigan kishidir, - deb ta’kidlaydi.
+        Tadbirkorni o‘zi, o‘z ishini rejalashtiradi, ishlab chiqarishni tashkil
+        etadi, mahsulotni sotadi va olgan daromadiga o‘zi ho‘jayinlik qiladi.
+        Biznes - bu avvalo ishlab chiqarishni tashkil etish, iqtisodiy faoliyat
+        va munosabatlar, hayotni o‘zi so‘ngra esa pul ishlash demakdir. Biznes-
+        bu xorijiy so‘zdir. U butun dunyo bo‘yicha tarqalgandir, undan barcha
         mamlakatlarda foydalanadilar. O‘zbek tilida esa biznes so‘zi
         tadbirkorlik, biznesmen esa tadbirkor demakdir. O‘zbekcha so‘z xorijiy
         so‘zga to‘g‘ri keladi, lekin unga qo‘shimcha ma’no ham beradi. Bu
@@ -65,26 +61,28 @@ export const TopicOne = () => {
         Mamlakatimizda bu siyosatni amalga oshirishda asosan tadbirkorlikni
         rivojlantirishni taqozo etadi. Tadbirkorlikning keng ko‘lamda
         rivojlanishiga ko‘makdosh sug‘urta tizimi hisoblanadi. Bu rivojlanishda
-        biznes sug‘urtasining o‘rni albatda muhimdir. Biznes faoliyatida mavjud
-        bo‘lgan bu uchta xususiyat tadbirkorni ijodkorligini kuchaytiradi,
-        yangi-yangi biznes g‘oyalarni ishlab chiqib, uni amalga oshirish uchun
-        ishtiyoqini va shijoatini o‘stiradi. Lekin baribir o‘z biznesining har
-        hil kutilmagan baxtsiz tasodiflar natijasida katta zarar ko‘rish havfi
-        bo‘ladi. Bu xavfni kamaytirishning yo‘llaridan biri albatta biznesni
-        havf - xatardan sug‘urtalashdir. Rivojlanayotgan bozor sharoitida, bozor
-        mexanizmlaridan samarali foydalanayotgan mamlakatlarda fuqarolar,
-        tadbirkorlar, biznesmenlar, firmalar, kompaniyalar va davlat o‘zlarining
-        mulkiy manfaatlarini himoya qilishda sug‘urtadan keng foydalanmoqda.
-        Rivojlangan mamlakatlar tajribalaridan kelib chiqqan holda
-        mamlakatimizda ham mustaqillik yillarida sug‘urta sohasida keskin
-        islohotlar amalga oshirildi. Yagona davlat sug‘urta tashkiloti
-        tugatilib, turli mulk shaklidagi sug‘urta tashkilotlar tashkil etildi.
-        Mazkur tashkilotlar faoliyat ko‘rsatishi uchun huquqiy jihatdan
-        shart-sharoitlar yaratildi, jumladan “Sug‘urta faoliyati to‘g‘risida”gi
-        qonun ishlab chiqilib takomillashtirildi, fuqarolik kodeksida alohida
-        bob sug‘urtaga bag‘ishlandi, majburiy sug‘urta turlari qonun asosida
-        kuchga kiritildi va sug‘urta faoliyatini tartibga solish maqsadida
-        sug‘urta kompaniyalarini litsenziyalash yo‘lga qo‘yildi hamda
+        biznes sug‘urtasining o‘rni albatda muhimdir.
+      </p>
+      <p>
+        Biznes faoliyatida mavjud bo‘lgan bu uchta xususiyat tadbirkorni
+        ijodkorligini kuchaytiradi, yangi-yangi biznes g‘oyalarni ishlab chiqib,
+        uni amalga oshirish uchun ishtiyoqini va shijoatini o‘stiradi. Lekin
+        baribir o‘z biznesining har hil kutilmagan baxtsiz tasodiflar natijasida
+        katta zarar ko‘rish havfi bo‘ladi. Bu xavfni kamaytirishning yo‘llaridan
+        biri albatta biznesni havf - xatardan sug‘urtalashdir. Rivojlanayotgan
+        bozor sharoitida, bozor mexanizmlaridan samarali foydalanayotgan
+        mamlakatlarda fuqarolar, tadbirkorlar, biznesmenlar, firmalar,
+        kompaniyalar va davlat o‘zlarining mulkiy manfaatlarini himoya qilishda
+        sug‘urtadan keng foydalanmoqda. Rivojlangan mamlakatlar tajribalaridan
+        kelib chiqqan holda mamlakatimizda ham mustaqillik yillarida sug‘urta
+        sohasida keskin islohotlar amalga oshirildi. Yagona davlat sug‘urta
+        tashkiloti tugatilib, turli mulk shaklidagi sug‘urta tashkilotlar
+        tashkil etildi. Mazkur tashkilotlar faoliyat ko‘rsatishi uchun huquqiy
+        jihatdan shart-sharoitlar yaratildi, jumladan “Sug‘urta faoliyati
+        to‘g‘risida”gi qonun ishlab chiqilib takomillashtirildi, fuqarolik
+        kodeksida alohida bob sug‘urtaga bag‘ishlandi, majburiy sug‘urta turlari
+        qonun asosida kuchga kiritildi va sug‘urta faoliyatini tartibga solish
+        maqsadida sug‘urta kompaniyalarini litsenziyalash yo‘lga qo‘yildi hamda
         sug‘urtaning barcha jihatlarini nazarda tutuvchi me’yoriy hujjatlar
         ishlab chiqildi. Natijada bugungi kunda sug‘urta iqtisodiyotning
         rivojlanishiga ijobiy ta’sir ko‘rsatadigan yirik sohaga aylanmoqda.
@@ -93,75 +91,82 @@ export const TopicOne = () => {
         ehtiyoj sezadi. Tadbirkorlik sohasi yangiliklarga intiluvchan,
         resurslarni tejash va samarali foydalanish imkoniyatini beruvchi
         usullarni qidirib topishga harakat qiluvchi, tavakkalchilikka asoslangan
-        soha hisoblanadi. Ma’lumki, tadbirkor o‘z ishini o‘zi rejalashtiradi,
-        ishlab chiqarishni tashkil etadi, mahsulotni sotadi va olgan daromadiga
-        o‘zi egalik qiladi. O‘z o‘rnida tadbirkorning faoliyati davomida yuz
-        bergan turli hodisalar tufayli ko‘rilgan zararini uning o‘zi qoplashi
-        kerak. Ko‘p hollarda bunday zararlarni tadbirkor qoplash imkoniyatiga
-        ega bo‘lmaydi. Bunday imkoniyatga jamiyatda faqatgina sug‘urta
-        kompaniyasi egadir. Shu munosabat bilan tadbirkorlik tavakkalchiliklari
-        sug‘urtasi tadbirkor faoliyatida zarur ko‘makchi hisoblanadi.
-        Tadbirkorlik tavakkalchiliklari bilan bog‘liq risklar sug‘urtasi turli
-        ishlab chiqarish, savdo va xizmat ko‘rsatish faoliyati davomida yuz
-        berishi mumkin bo‘lgan tabiiy va boshqa kutilmagan hodisalardan
-        ko‘riladigan zararlarni qoplashni ko‘zda tutuvchi sug‘urta faoliyatidir.
-        Turli sabablar (xom-ashyoning etishmay qolishi, elektr va yoqilg‘i
-        moylash materiallarining etishmay qolishi, ish joyida yong‘in chiqishi
-        va hokazolar) oqibatida yuz beradigan ishlab chiqarishdagi uzilishlar
-        natijasida ko‘riladigan zararlar, bankrotlik holatlari, tayyor
-        mahsulotning sotilmay qolishi yoki sotilgan mahsulot uchun to‘lovning
-        amalga oshmay qolishi va boshqalar sug‘urta hodisasi sifatida qabul
-        qilinishi mumkin. Tadbirkorlik tavakkalchiligi sug‘urtasi birinchi marta
-        Angliya iqtisodiyotida o‘n sakkizinchi asrda paydo bo‘lgan. Keyinchalik
-        ushbu sug‘urta turlari Evropaning boshqa malakatlarida, AQSHda va boshqa
-        mamlakatlarda qo‘llanila boshlagan. O‘zbekistonda tadbirkorlik
-        tavakkalchiliklari sug‘urtasi mustaqillik yillarida paydo bo‘lib
-        boshladi. Bu sug‘urta turi bo‘yicha sug‘urta klassifikatorida ham
-        klasslar nazarda tutilgan. Ammo bu sug‘urta turi hozircha keng
-        rivojlanish darajasiga etgani yo‘q. Tadbirkor faoliyatidagi ishlab
-        chiqarish hajmining kamayishiga sabab bo‘luvchi bir qancha xatarlar,
-        masalan xom-ashyoni etkazib berishning to‘xtab qolishi, ish kuchining
-        etishmay qolishi, elektr energiya va boshqa energiya vositalarini
-        etkazib berishning to‘xtab qolishi va boshqa holatlar ishlab
-        chiqarishdagi uzilishlarga sabab bo‘lishi va natijada ko‘zlangan foydaga
-        erisholmaslik holatlari yuz berishi mumkin. Tijorat faoliyatida tovar
-        uchun to‘lovlar bilan bog‘liq xatarlar yuz berishi mumkin, ya’ni etkazib
-        berilgan tovar uchun xaridorning to‘lovga qobiliyatsizligi yuz berishi
-        va natijada to‘lovni amalga oshira olmasligi mumkin. Ma’lum mamlakat
-        miqyosidagi siyosiy holatlar natijasida sotuvchi yoki xaridorga
-        mahsulotni sota olmaslik yoki sotib ololmaslik holatlari yuz berishi
-        mumkin. Hozirgi zamon sharoitida tijorat risklari sug‘urtasiga bo‘lgan
-        ehtiyoj keskin oshib bormoqda, chunki ushbu sohada faoliyat
-        ko‘rsatayotgan sub’ektlar soni oshib ketdi va o‘z o‘rnida mazkur sohaga
-        yo‘naltirilayotgan investitsiyalar hajmi ham ortib bormoqda. Ammo
-        sug‘urtaning bu turi eng murakkab bo‘lib, sug‘urta kompaniyasining
-        javobgarligi yuqorida ko‘rsatib o‘tilgan risklardan hosil bo‘lgan
-        zararlarni qoplashda hosil bo‘ladi. Bunda sug‘urta summasini
-        aniqlashning ikkita varianti mavjud. Birinchi variantda sug‘urta summasi
-        sug‘urtalanuvchi tomonidan sug‘urta ob’ektiga yo‘naltirilgan kapital
-        mablag‘lar hajmidan kelib chiqib belgilanadi, ikkinchi variantda
-        sug‘urta summasi sug‘urta ob’ektiga qilingan kapital mablag‘dan tashqari
-        olinishi kutilayotgan foydani ham qo‘shib hisoblanadi. Qishloq
-        xo‘jaligida tadbirkorlik xatarlari ko‘p hollarda tabiiy hodisalar
-        natijasida yuz berishi mumkin, ya’ni turli tabiiy hodisalar tufayli
-        hosildorlikning kamayishi yoki umuman bo‘lmay qolishi, sifatsiz mahsulot
-        etishishi va hokazolar natijasida kutilgan natijaga erishilmay qolinishi
-        mumkin. Bundan tashqari ishlab chiqarish va mahsulotni sotish bilan
-        bog‘liq boshqa xatarlar ham yuz berishi mumkin. Tashqi faoliyat bilan
-        bog‘liq xatarlar ko‘p holatlarda siyosiy xatarlar, mahsulotni tashish
-        bilan bog‘liq xatarlar, to‘lovga qobiliyatsizlik va boshqa xatarlar
-        bo‘lishi mumkin. Kredit risklari sug‘urtasining ob’ekti bo‘lib,
-        xaridorga beriladigan tijorat kreditlari, sotuvchi yoki xaridorga
-        beriladigan bank ssudasi, kredit bo‘yicha majburiyat yoki kafillik, uzoq
-        muddatli investitsiyalar va boshqalar hisoblanadi. Ushbu sug‘urta turi
-        sotuvchi yoki bank-kreditor manfaatlarini qarzdorning to‘lovga
-        qobiliyatsizlik holatidan himoya qiladi. Hozirgi paytda rivojlangan
-        mamlakatlarning barchasida kredit risklarini sug‘urtalashga
-        ixtisoslashgan sug‘urta kompaniyalari bo‘lib, ular eksport kreditlari
-        sug‘urtasini amalga oshiruvchi tizimga va chet el investitsiyalarini
-        sug‘urtalash sxemalariga ega. Kreditni qaytara olmaslikdan sug‘urtalash
-        turi bozor iqtisodiyoti sharoitida keng rivojlangan sug‘urta turlaridan
-        biri hisoblanadi. Bu sug‘urta turi banklar va sug‘urta kompaniyalari
+        soha hisoblanadi.
+      </p>
+      <p>
+        Ma’lumki, tadbirkor o‘z ishini o‘zi rejalashtiradi, ishlab chiqarishni
+        tashkil etadi, mahsulotni sotadi va olgan daromadiga o‘zi egalik qiladi.
+        O‘z o‘rnida tadbirkorning faoliyati davomida yuz bergan turli hodisalar
+        tufayli ko‘rilgan zararini uning o‘zi qoplashi kerak. Ko‘p hollarda
+        bunday zararlarni tadbirkor qoplash imkoniyatiga ega bo‘lmaydi. Bunday
+        imkoniyatga jamiyatda faqatgina sug‘urta kompaniyasi egadir. Shu
+        munosabat bilan tadbirkorlik tavakkalchiliklari sug‘urtasi tadbirkor
+        faoliyatida zarur ko‘makchi hisoblanadi. Tadbirkorlik tavakkalchiliklari
+        bilan bog‘liq risklar sug‘urtasi turli ishlab chiqarish, savdo va xizmat
+        ko‘rsatish faoliyati davomida yuz berishi mumkin bo‘lgan tabiiy va
+        boshqa kutilmagan hodisalardan ko‘riladigan zararlarni qoplashni ko‘zda
+        tutuvchi sug‘urta faoliyatidir. Turli sabablar (xom-ashyoning etishmay
+        qolishi, elektr va yoqilg‘i moylash materiallarining etishmay qolishi,
+        ish joyida yong‘in chiqishi va hokazolar) oqibatida yuz beradigan ishlab
+        chiqarishdagi uzilishlar natijasida ko‘riladigan zararlar, bankrotlik
+        holatlari, tayyor mahsulotning sotilmay qolishi yoki sotilgan mahsulot
+        uchun to‘lovning amalga oshmay qolishi va boshqalar sug‘urta hodisasi
+        sifatida qabul qilinishi mumkin. Tadbirkorlik tavakkalchiligi sug‘urtasi
+        birinchi marta Angliya iqtisodiyotida o‘n sakkizinchi asrda paydo
+        bo‘lgan. Keyinchalik ushbu sug‘urta turlari Evropaning boshqa
+        malakatlarida, AQSHda va boshqa mamlakatlarda qo‘llanila boshlagan.
+        O‘zbekistonda tadbirkorlik tavakkalchiliklari sug‘urtasi mustaqillik
+        yillarida paydo bo‘lib boshladi. Bu sug‘urta turi bo‘yicha sug‘urta
+        klassifikatorida ham klasslar nazarda tutilgan. Ammo bu sug‘urta turi
+        hozircha keng rivojlanish darajasiga etgani yo‘q. Tadbirkor
+        faoliyatidagi ishlab chiqarish hajmining kamayishiga sabab bo‘luvchi bir
+        qancha xatarlar, masalan xom-ashyoni etkazib berishning to‘xtab qolishi,
+        ish kuchining etishmay qolishi, elektr energiya va boshqa energiya
+        vositalarini etkazib berishning to‘xtab qolishi va boshqa holatlar
+        ishlab chiqarishdagi uzilishlarga sabab bo‘lishi va natijada ko‘zlangan
+        foydaga erisholmaslik holatlari yuz berishi mumkin.
+      </p>
+      <p>
+        Tijorat faoliyatida tovar uchun to‘lovlar bilan bog‘liq xatarlar yuz
+        berishi mumkin, ya’ni etkazib berilgan tovar uchun xaridorning to‘lovga
+        qobiliyatsizligi yuz berishi va natijada to‘lovni amalga oshira
+        olmasligi mumkin. Ma’lum mamlakat miqyosidagi siyosiy holatlar
+        natijasida sotuvchi yoki xaridorga mahsulotni sota olmaslik yoki sotib
+        ololmaslik holatlari yuz berishi mumkin. Hozirgi zamon sharoitida
+        tijorat risklari sug‘urtasiga bo‘lgan ehtiyoj keskin oshib bormoqda,
+        chunki ushbu sohada faoliyat ko‘rsatayotgan sub’ektlar soni oshib ketdi
+        va o‘z o‘rnida mazkur sohaga yo‘naltirilayotgan investitsiyalar hajmi
+        ham ortib bormoqda. Ammo sug‘urtaning bu turi eng murakkab bo‘lib,
+        sug‘urta kompaniyasining javobgarligi yuqorida ko‘rsatib o‘tilgan
+        risklardan hosil bo‘lgan zararlarni qoplashda hosil bo‘ladi. Bunda
+        sug‘urta summasini aniqlashning ikkita varianti mavjud. Birinchi
+        variantda sug‘urta summasi sug‘urtalanuvchi tomonidan sug‘urta ob’ektiga
+        yo‘naltirilgan kapital mablag‘lar hajmidan kelib chiqib belgilanadi,
+        ikkinchi variantda sug‘urta summasi sug‘urta ob’ektiga qilingan kapital
+        mablag‘dan tashqari olinishi kutilayotgan foydani ham qo‘shib
+        hisoblanadi. Qishloq xo‘jaligida tadbirkorlik xatarlari ko‘p hollarda
+        tabiiy hodisalar natijasida yuz berishi mumkin, ya’ni turli tabiiy
+        hodisalar tufayli hosildorlikning kamayishi yoki umuman bo‘lmay qolishi,
+        sifatsiz mahsulot etishishi va hokazolar natijasida kutilgan natijaga
+        erishilmay qolinishi mumkin. Bundan tashqari ishlab chiqarish va
+        mahsulotni sotish bilan bog‘liq boshqa xatarlar ham yuz berishi mumkin.
+        Tashqi faoliyat bilan bog‘liq xatarlar ko‘p holatlarda siyosiy xatarlar,
+        mahsulotni tashish bilan bog‘liq xatarlar, to‘lovga qobiliyatsizlik va
+        boshqa xatarlar bo‘lishi mumkin.
+      </p>
+      <p>
+        Kredit risklari sug‘urtasining ob’ekti bo‘lib, xaridorga beriladigan
+        tijorat kreditlari, sotuvchi yoki xaridorga beriladigan bank ssudasi,
+        kredit bo‘yicha majburiyat yoki kafillik, uzoq muddatli investitsiyalar
+        va boshqalar hisoblanadi. Ushbu sug‘urta turi sotuvchi yoki
+        bank-kreditor manfaatlarini qarzdorning to‘lovga qobiliyatsizlik
+        holatidan himoya qiladi. Hozirgi paytda rivojlangan mamlakatlarning
+        barchasida kredit risklarini sug‘urtalashga ixtisoslashgan sug‘urta
+        kompaniyalari bo‘lib, ular eksport kreditlari sug‘urtasini amalga
+        oshiruvchi tizimga va chet el investitsiyalarini sug‘urtalash
+        sxemalariga ega. Kreditni qaytara olmaslikdan sug‘urtalash turi bozor
+        iqtisodiyoti sharoitida keng rivojlangan sug‘urta turlaridan biri
+        hisoblanadi. Bu sug‘urta turi banklar va sug‘urta kompaniyalari
         o‘rtasida hamkorlikning kuchayishi bilan yanada keng rivojlandi. Bizning
         mamlakatimizda ham bu sug‘urta turi birmuncha rivojlanmoqda, banklar
         tomonidan xo‘jalik sub’ektlariga berilayotgan kreditlarni to‘liq
@@ -176,83 +181,100 @@ export const TopicOne = () => {
         etilayotganda texnik va texnologik risklardan sug‘urtalash ham muhim
         hisoblanadi.
       </p>
-
       <h4>1.2 Sug‘urta biznesining huquqiy asoslari</h4>
-      <img
-        className="mainTopic"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsazgrK44UTkyhpF49oJG5-DfhJ_QEDAzthHwyBpUyra42BZNdxRZznbRJJUaXn_MtGAA&usqp=CAU"
-        alt="insurance"
-      />
+      <img className="mainTopic" src={mainImg} alt="insurance" />
       <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sug‘urta huquqi sug‘urta
-        tashkilotlari bilan sug‘urtalanuvchilar, hamda kredit tashkilotlari
-        o‘rtasidagi xuquqiy munosabatlari ifodalaydi. Bunday munosabatlar
-        mamlakatimiz konstitutsiyasi asosida vujudga kelgan qator huquqiy
-        hujjatlarda o‘z ifodasini topadi. Bu huquqiy hujjatlarga quyidagilar
-        kiradi: 1. Fuqarolik kodeksi; 2. Sug‘urta faoliyati to‘g‘risidagi
-        Respublika qonuni; 3. Tadbirkorlik faoliyati erkinlikgining kafolatlari
-        to‘g‘risidagi qonuni; 4. Davlat sug‘urta tashkilotlari xaqidagi
-        nizomlar; 5. Xususiy sug‘urta tashkilotlarining nizomlari; 6. Sug‘urta
-        nazorati xaqidagi xukumat qarori va boshqalar. Fuqarolik kodeksi O‘zR
-        30.08.1997 y. 477-I-son Qonuni bilan tasdiqlangan, O‘zR OM 30.08.1997 y,
-        477a-1-son Qaroriga muvofiq 01.01.1998 yildan amalga kiritilgan bo‘lib,
-        fuqarolik kodeksining 52-bobi 914-961-moddalar sug‘urta masalalariga
-        bag‘ishlangan, bunda sug‘urtaning eng muhim huquqiy masalalari sug‘urta
-        shartnomalarini tuzish, ikki tomonlama sug‘urtalash, hamkorlik
-        sug‘urtasi, qayta sug‘urtalash masalalari yoritilib, bundan tashqari
-        tadbirkorlik xavfini sug‘urtalashni amalga oshirish, tomonlarning
-        javobgarligi va boshqalar kodeks doirasida xuquqiy jihatdan tushuntirib
-        berilgan Fuqarolik kodeksining biznes sug‘urtasiga doir moddalari bilan
-        tanishib chiqsak: Fuqarolik kodeksining 915-moddasi “Mulkiy sug‘urta
-        shartnomasi”ga bag‘ishlangan bo‘lib, unda tadbirkorlik bilan
-        shug‘ullanuvchilarning mulkiy manfaatlarini sug‘urtalash nazarda
-        tutilgan. Mulkiy sug‘urta shartnomasiga muvofiq bir taraf
-        (sug‘urtalovchi) shartnomada shartlashilgan haq (sug‘urta mukofoti)
-        evaziga shartnomada nazarda tutilgan voqea (sug‘urta hodisasi) sodir
-        bo‘lganda boshqa tarafga (sug‘urta qildiruvchiga) yoki shartnoma qaysi
-        shaxsning foydasiga tuzilgan bo‘lsa, o‘sha shaxsga (naf oluvchiga) bu
-        hodisa oqibatida sug‘urtalangan mulkka etkazilgan zararni yoxud
-        sug‘urtalanuvchining boshqa mulkiy manfaatlari bilan bog‘liq zararni
-        shartnomada belgilangan summa (sug‘urta puli) doirasida to‘lash
-        (sug‘urta tovoni to‘lash) majburiyatini oladi. Mulkiy sug‘urta
-        shartnomasi bo‘yicha quyidagilar sug‘urtalanishi mumkin:  muayyan
-        mol-mulkning yo‘qotilishi (nobud bo‘lishi), kam chiqishi yoki
-        shikastlanishi xavfi;  fuqarolik javobgarligi xavfi-boshqa shaxslarning
-        hayoti, sog‘lig‘i yoki mol-mulkiga zarar yetkazilishi oqibatida yuzaga
-        keladigan majburiyatlar bo‘yicha javobgarlik, qonunda nazarda tutilgan
-        hollarda esa, shuningdek shartnomalar bo‘yicha javobgarlik xavfi; 
-        tadbirkorlik xavfi-tadbirkorning kontragentlari o‘z majburiyatlarini
-        buzishi yoki tadbirkorga bog‘liq bo‘lmagan vaziyatlarga ko‘ra bu
-        faoliyat shart-sharoitlarining o‘zgarishi tufayli tadbirkorlik
-        faoliyatidan kutilgan daromadlarni ololmaslik xavfi. Mulkiy sug‘urta
-        shartnomasiga ko‘ra biznes va tadbirkorlik bilan shug‘ullanuvchilar o‘z
-        mulklarining saqlanishi va o‘z faoliyatining davomiyligini kafolatlab
-        oladi desak adashmagan bo‘lamiz. Bu sug‘urta turi iqtisodiyotning
-        inqirozga uchramasligiga ko‘makdosh, yordamchi va himoyachi vazifalarini
-        bajaradi. Biznes bilan shug‘ullanuvchilar tadbirkorlik xavfini
-        sug‘urtalash natijasida mulkiy manfaatlar natijasida kelib chiqadigan
-        kelishmovchiliklarni xal qilishda ko‘makdosh sanaladi. Fuqarolik
-        kodeksining 917-moddasida «Mol-mulkni sug‘urta qilish» shartnomalari va
-        shartlari yozilgan ya’ni, mol-mulk uning asralishidan qonun hujjatlariga
-        yoki shartnomaga asoslangan manfaatga ega bo‘lgan shaxs (sug‘urta
-        qildiruvchi yoki naf oluvchi) foydasiga, uning mulkdori, mol mulkka
-        nisbatan boshqa ashyoviy huquqqa ega bo‘lgan shaxs, ijarachi, pudratchi,
-        saqlovchi, vositachi va boshqa shu kabilar foydasiga sug‘urta
-        shartnomasi bo‘yicha sug‘urtalanishi mumkin. Bundan ko‘rinib turibdiki
-        mol-mulkni sugurta kilish ixtiyoriy. Bu bilan tadbirkor mol-mulkini
-        sugurtalashi mumkin. Sug‘urtalangan mol-mulkning asralishidan sug‘urta
-        qildiruvchida va naf oluvchida manfaat bo‘lmagan paytda tuzilgan
-        mol-mulkni sug‘urta qilish shartnomasi haqiqiy emas deb xisoblanadi. Naf
-        oluvchi foydasiga molmulkni sug‘urta qilish shartnomasi naf oluvchining
-        ismi yoki nomi ko‘rsatilmasdan tuzilishi mumkin. Bunday shartnoma
-        tuzilganda sug‘urta qildiruvchiga egasining nomi ko‘rsatilmagan polis
-        beriladi. Bunday shartnoma bo‘yicha huquqlarni amalga oshirishda bu
-        polisni sug‘urtalovchiga taqdim etish zarur xisoblanadi va bu qonunlarda
-        ko‘rsatilgan tartibda o‘z echimini topadi. Ushbu kodeksning
-        919-moddasida “Shartnoma bo‘yicha javobgarlikni sug‘urta qilish”
-        to‘g‘risida bayon etilgan. Shartnomani buzganlik uchun javobgarlik
-        xavfini sug‘urta qilishga qonunda nazarda tutilgan hollarda yo‘l
-        qo‘yiladi. Shartnomani buzganlik uchun javobgarlik xavfini sug‘urta
+        Sug‘urta huquqi sug‘urta tashkilotlari bilan sug‘urtalanuvchilar, hamda
+        kredit tashkilotlari o‘rtasidagi xuquqiy munosabatlari ifodalaydi.
+        Bunday munosabatlar mamlakatimiz konstitutsiyasi asosida vujudga kelgan
+        qator huquqiy hujjatlarda o‘z ifodasini topadi. Bu huquqiy hujjatlarga
+        quyidagilar kiradi:
+      </p>
+      <ol>
+        <li>Fuqarolik kodeksi;</li>
+        <li>Sug‘urta faoliyati to‘g‘risidagi Respublika qonuni;</li>
+        <li>
+          Tadbirkorlik faoliyati erkinlikgining kafolatlari to‘g‘risidagi
+          qonuni;
+        </li>
+        <li>Davlat sug‘urta tashkilotlari xaqidagi nizomlar;</li>
+        <li>Xususiy sug‘urta tashkilotlarining nizomlari;</li>
+        <li>Sug‘urta nazorati xaqidagi xukumat qarori va boshqalar;</li>
+      </ol>
+
+      <p>
+        Fuqarolik kodeksi O‘zR 30.08.1997 y. 477-I-son Qonuni bilan
+        tasdiqlangan, O‘zR OM 30.08.1997 y, 477a-1-son Qaroriga muvofiq
+        01.01.1998 yildan amalga kiritilgan bo‘lib, fuqarolik kodeksining
+        52-bobi 914-961-moddalar sug‘urta masalalariga bag‘ishlangan, bunda
+        sug‘urtaning eng muhim huquqiy masalalari sug‘urta shartnomalarini
+        tuzish, ikki tomonlama sug‘urtalash, hamkorlik sug‘urtasi, qayta
+        sug‘urtalash masalalari yoritilib, bundan tashqari tadbirkorlik xavfini
+        sug‘urtalashni amalga oshirish, tomonlarning javobgarligi va boshqalar
+        kodeks doirasida xuquqiy jihatdan tushuntirib berilgan Fuqarolik
+        kodeksining biznes sug‘urtasiga doir moddalari bilan tanishib chiqsak:
+        Fuqarolik kodeksining 915-moddasi “Mulkiy sug‘urta shartnomasi”ga
+        bag‘ishlangan bo‘lib, unda tadbirkorlik bilan shug‘ullanuvchilarning
+        mulkiy manfaatlarini sug‘urtalash nazarda tutilgan. Mulkiy sug‘urta
+        shartnomasiga muvofiq bir taraf (sug‘urtalovchi) shartnomada
+        shartlashilgan haq (sug‘urta mukofoti) evaziga shartnomada nazarda
+        tutilgan voqea (sug‘urta hodisasi) sodir bo‘lganda boshqa tarafga
+        (sug‘urta qildiruvchiga) yoki shartnoma qaysi shaxsning foydasiga
+        tuzilgan bo‘lsa, o‘sha shaxsga (naf oluvchiga) bu hodisa oqibatida
+        sug‘urtalangan mulkka etkazilgan zararni yoxud sug‘urtalanuvchining
+        boshqa mulkiy manfaatlari bilan bog‘liq zararni shartnomada belgilangan
+        summa (sug‘urta puli) doirasida to‘lash (sug‘urta tovoni to‘lash)
+        majburiyatini oladi. Mulkiy sug‘urta shartnomasi bo‘yicha quyidagilar
+        sug‘urtalanishi mumkin:
+      </p>
+      <ul>
+        <li>
+          muayyan mol-mulkning yo‘qotilishi (nobud bo‘lishi), kam chiqishi yoki
+          shikastlanishi xavfi;
+        </li>
+        <li>
+          fuqarolik javobgarligi xavfi-boshqa shaxslarning hayoti, sog‘lig‘i
+          yoki mol-mulkiga zarar yetkazilishi oqibatida yuzaga keladigan
+          majburiyatlar bo‘yicha javobgarlik, qonunda nazarda tutilgan hollarda
+          esa, shuningdek shartnomalar bo‘yicha javobgarlik xavfi;
+        </li>
+        <li>
+          tadbirkorlik xavfi-tadbirkorning kontragentlari o‘z majburiyatlarini
+          buzishi yoki tadbirkorga bog‘liq bo‘lmagan vaziyatlarga ko‘ra bu
+          faoliyat shart-sharoitlarining o‘zgarishi tufayli tadbirkorlik
+          faoliyatidan kutilgan daromadlarni ololmaslik xavfi
+        </li>
+      </ul>
+
+      <p>
+        Mulkiy sug‘urta shartnomasiga ko‘ra biznes va tadbirkorlik bilan
+        shug‘ullanuvchilar o‘z mulklarining saqlanishi va o‘z faoliyatining
+        davomiyligini kafolatlab oladi desak adashmagan bo‘lamiz. Bu sug‘urta
+        turi iqtisodiyotning inqirozga uchramasligiga ko‘makdosh, yordamchi va
+        himoyachi vazifalarini bajaradi. Biznes bilan shug‘ullanuvchilar
+        tadbirkorlik xavfini sug‘urtalash natijasida mulkiy manfaatlar
+        natijasida kelib chiqadigan kelishmovchiliklarni xal qilishda ko‘makdosh
+        sanaladi. Fuqarolik kodeksining 917-moddasida «Mol-mulkni sug‘urta
+        qilish» shartnomalari va shartlari yozilgan ya’ni, mol-mulk uning
+        asralishidan qonun hujjatlariga yoki shartnomaga asoslangan manfaatga
+        ega bo‘lgan shaxs (sug‘urta qildiruvchi yoki naf oluvchi) foydasiga,
+        uning mulkdori, mol mulkka nisbatan boshqa ashyoviy huquqqa ega bo‘lgan
+        shaxs, ijarachi, pudratchi, saqlovchi, vositachi va boshqa shu kabilar
+        foydasiga sug‘urta shartnomasi bo‘yicha sug‘urtalanishi mumkin. Bundan
+        ko‘rinib turibdiki mol-mulkni sugurta kilish ixtiyoriy. Bu bilan
+        tadbirkor mol-mulkini sugurtalashi mumkin. Sug‘urtalangan mol-mulkning
+        asralishidan sug‘urta qildiruvchida va naf oluvchida manfaat bo‘lmagan
+        paytda tuzilgan mol-mulkni sug‘urta qilish shartnomasi haqiqiy emas deb
+        xisoblanadi. Naf oluvchi foydasiga molmulkni sug‘urta qilish shartnomasi
+        naf oluvchining ismi yoki nomi ko‘rsatilmasdan tuzilishi mumkin. Bunday
+        shartnoma tuzilganda sug‘urta qildiruvchiga egasining nomi
+        ko‘rsatilmagan polis beriladi. Bunday shartnoma bo‘yicha huquqlarni
+        amalga oshirishda bu polisni sug‘urtalovchiga taqdim etish zarur
+        xisoblanadi va bu qonunlarda ko‘rsatilgan tartibda o‘z echimini topadi.
+        Ushbu kodeksning 919-moddasida “Shartnoma bo‘yicha javobgarlikni
+        sug‘urta qilish” to‘g‘risida bayon etilgan. Shartnomani buzganlik uchun
+        javobgarlik xavfini sug‘urta qilishga qonunda nazarda tutilgan hollarda
+        yo‘l qo‘yiladi. Shartnomani buzganlik uchun javobgarlik xavfini sug‘urta
         qilish shartnomasi bo‘yicha faqat sug‘urta qildiruvchining o‘zining
         javobgarlik xavfi sug‘urtalanishi mumkin. Ushbu talabga muvofiq
         bo‘lmagan sug‘urta shartnomasi o‘z-o‘zidan haqiqiy emas deb hisoblanadi.
@@ -289,7 +311,10 @@ export const TopicOne = () => {
         xavfi sug‘urtasi to‘g‘risidagi sug‘urta polisidan foydalanishi mumkin.
         Tadbirkorlik faoliyati sub’ektlarini sug‘urta qilish sug‘urta
         tashkilotlari tomonidan qonun hujjatlarida belgilangan tartibda amalga
-        oshiriladi. “Sug‘urta xizmatlari bozorini bundan-buyongi isloh qilish va
+        oshiriladi.
+      </p>
+      <p>
+        “Sug‘urta xizmatlari bozorini bundan-buyongi isloh qilish va
         rivojlantirish chora-tadbirlari to‘g‘risida” 2007 yil 10 apreldagi
         Prezident qaroriga ilova sifatida tasdiqlangan O‘zbekiston Respublikasi
         sug‘urta bozorini 2007-2010 yillarda isloh qilish va rivojlantirish
@@ -370,6 +395,8 @@ export const TopicOne = () => {
         tuzilgan bo‘lsa, sug‘urtalovchi tegishli holatlar sug‘urta qildiruvchi
         tomonidan ma’lum qilinmaganligiga asoslanib keyinchalik shartnomani
         bekor qilishni yoxud uni haqiqiy emas deb topishni talab qila olmaydi.
+      </p>
+      <p>
         Sug‘urtalovchilar sug‘urta da’volarini ko‘rib chiqish va hal etish
         tizimini yaratishlari va qo‘llab-quvvatlashlari shart. Sug‘urtalovchilar
         sug‘urta da’volarini o‘z vaqtida va odilona hal etishlari shart.
@@ -445,27 +472,29 @@ export const TopicOne = () => {
         harakatlarni amalga oshirishga haqli. Sug‘urta shartnomasi amalda
         bo‘lgan davrda tegishli ravishda jo‘natilgan tovarlar uchun
         sug‘urtalovchi tomonidan zararni qoplash bo‘yicha talablar zarar yuz
-        bergan paytdan boshlab uch yil mobaynida qabul qilinadi. Sug‘urta
-        qildiruvchi zararni keltirib chiqargan voqeaning sodir bo‘lganligi
-        haqida xabar qilganda, sug‘urtalovchi sug‘urta da’vosini ko‘rib chiqish
-        va sodir bo‘lgan voqeaning turi, sabablari va tafsilotlarini batafsil
-        o‘rganib chiqish uchun o‘z xodimini yoki boshqa shaxsni yuborishga
-        haqli. Sug‘urta qildiruvchi sug‘urtalovchining vakiliga sodir bo‘lgan
-        voqeaning turi, sabablari va tafsilotlarini o‘rganib chiqish
-        imkoniyatini ta’minlashi yoki zararni keltirib chiqargan voqea sodir
-        bo‘lganligini tasdiqlovchi video-fotomateriallarni va boshqa hujjatlarni
-        taqdim etishi lozim. Sug‘urta hodisasining sodir bo‘lishi munosabati
-        bilan jinoiy ish, fuqarolik sud ishi yoki ma’muriy jazolar qo‘llash
-        haqida ish qo‘zg‘atilgan bo‘lsa, sug‘urtalovchi tegishli summalarni
-        to‘lash to‘g‘risidagi qarorning qabul qilinishini mutasaddi idoralar
-        tomonidan tegishli qaror qabul qilingunga qadar kechiktirishga haqli.
-        Sodir bo‘lgan voqea, zararlar hajmi va sug‘urta tovoni miqdori bo‘yicha
-        tomonlar o‘rtasida kelishmovchiliklar bo‘lmasa, sug‘urtalovchi
-        to‘lanishi lozim bo‘lgan sug‘urta tovoni miqdori ko‘rsatilgan sug‘urta
-        hodisasi to‘g‘risidagi dalolatnomani (sug‘urta dalolatnomasini) tuzadi.
-        Bu biznes egalarini sug‘urta bilan bo‘ladigan munosabatlarni tartibga
-        soluvchi muxim ahamiyat kasb etadi. Sug‘urta xizmatlari
-        iste’molchilarining manfaatlarini himoyalash, ya’ni sug‘urta
+        bergan paytdan boshlab uch yil mobaynida qabul qilinadi.
+      </p>
+      <p>
+        Sug‘urta qildiruvchi zararni keltirib chiqargan voqeaning sodir
+        bo‘lganligi haqida xabar qilganda, sug‘urtalovchi sug‘urta da’vosini
+        ko‘rib chiqish va sodir bo‘lgan voqeaning turi, sabablari va
+        tafsilotlarini batafsil o‘rganib chiqish uchun o‘z xodimini yoki boshqa
+        shaxsni yuborishga haqli. Sug‘urta qildiruvchi sug‘urtalovchining
+        vakiliga sodir bo‘lgan voqeaning turi, sabablari va tafsilotlarini
+        o‘rganib chiqish imkoniyatini ta’minlashi yoki zararni keltirib
+        chiqargan voqea sodir bo‘lganligini tasdiqlovchi video-fotomateriallarni
+        va boshqa hujjatlarni taqdim etishi lozim. Sug‘urta hodisasining sodir
+        bo‘lishi munosabati bilan jinoiy ish, fuqarolik sud ishi yoki ma’muriy
+        jazolar qo‘llash haqida ish qo‘zg‘atilgan bo‘lsa, sug‘urtalovchi
+        tegishli summalarni to‘lash to‘g‘risidagi qarorning qabul qilinishini
+        mutasaddi idoralar tomonidan tegishli qaror qabul qilingunga qadar
+        kechiktirishga haqli. Sodir bo‘lgan voqea, zararlar hajmi va sug‘urta
+        tovoni miqdori bo‘yicha tomonlar o‘rtasida kelishmovchiliklar bo‘lmasa,
+        sug‘urtalovchi to‘lanishi lozim bo‘lgan sug‘urta tovoni miqdori
+        ko‘rsatilgan sug‘urta hodisasi to‘g‘risidagi dalolatnomani (sug‘urta
+        dalolatnomasini) tuzadi. Bu biznes egalarini sug‘urta bilan bo‘ladigan
+        munosabatlarni tartibga soluvchi muxim ahamiyat kasb etadi. Sug‘urta
+        xizmatlari iste’molchilarining manfaatlarini himoyalash, ya’ni sug‘urta
         munosabatlarida ular uchun adolatli sharoitlarni ta’minlash,
         sug‘urtalovchilar tomonidan ular huquqlarining buzilish holatlarini
         kamaytirish yuzasidan davlat xamisha qayg‘uradi. Qayta sug‘urtalovchilar
@@ -474,20 +503,14 @@ export const TopicOne = () => {
         bilan qayta sug‘urta faoliyati dav.lat tomonidan tartibga solinishi
         muhimdir.
       </p>
-
       <h4>1.3 Sug‘urta tashkilotlarida biznes jarayonini tashkil etilishi</h4>
-      <img
-        className="mainTopic"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsazgrK44UTkyhpF49oJG5-DfhJ_QEDAzthHwyBpUyra42BZNdxRZznbRJJUaXn_MtGAA&usqp=CAU"
-        alt="insurance"
-      />
+      <img className="mainTopic" src={mainImg} alt="insurance" />
       <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O‘zbekiston sug‘urta
-        bozori Markaziy Osiyoda eng tezkor sur’atlar bilan rivojlanayotgan
-        bozorlardan biri hisoblanadi. Bozor bir necha yildan beri barqaror
-        o‘sish sur’atiga ega bo‘lib kelmoqda, bu esa o‘z navbatida uning
-        mamlakat iqtisodiyotidagi rolini oshirib bormoqda. Ma’lumki, mamlakat
-        moliya sektorining, shu jumladan, sug‘urta sohasining rivoji
+        O‘zbekiston sug‘urta bozori Markaziy Osiyoda eng tezkor sur’atlar bilan
+        rivojlanayotgan bozorlardan biri hisoblanadi. Bozor bir necha yildan
+        beri barqaror o‘sish sur’atiga ega bo‘lib kelmoqda, bu esa o‘z navbatida
+        uning mamlakat iqtisodiyotidagi rolini oshirib bormoqda. Ma’lumki,
+        mamlakat moliya sektorining, shu jumladan, sug‘urta sohasining rivoji
         mamlakatning umumiqtisodiy ahvoli bilan chambarchas bog‘langan. Sug‘urta
         sohasi mamlakat iqtisodiyotining rivoji bilan uzviy bog‘liqligi sababli,
         ushbu soha biznesni sug‘urtalash mamlakatdagi umumiqtisodiy
@@ -499,81 +522,92 @@ export const TopicOne = () => {
         qismlaridan biri sifatida ko‘rib chiqilayotganligidadir. Undan tashqari
         kichik biznes va xususiy tadbirkorlikka katta e’tibor berilayotganligi
         va ishlab chiqarishning uzliksizligini ta’minlashga qaratilayotgan keng
-        ko‘lamdagi tadbirlarda ham ko‘rishimiz mumkin. So‘nggi yillarda biznesni
-        sug‘urtalashning rivojlanishi asosan sug‘urtalovchilar soni jadal
-        sur’atlarda ko‘payishi va biznesni sug‘urtalashdan tushgan sug‘urta
-        mukofoti hajmi ancha oshishi bilan tavsiflanadi. O‘zbekistonda sug‘urta
-        bozorining rivojlanishi davlat miqyosida ijtimoiy rivojlanishning asosiy
-        omillaridan biri sifatida qaralgan bo‘lib, mavjud shart-sharoitlar,
-        milliy sug‘urta an’analari va madaniyati hisobga olingan xolda isloh
-        etilgan va milliy sug‘urta bozori tashkil topishi va shakllanishi sekin
-        - astalik bilan tubdan o‘zgarib borgan va bir nechta bosqichlarni bosib
-        o‘tgan. Respublikamiz sug‘urta bozori isloh etilishini birinchi bosqichi
+        ko‘lamdagi tadbirlarda ham ko‘rishimiz mumkin.
+      </p>
+      <p>
+        So‘nggi yillarda biznesni sug‘urtalashning rivojlanishi asosan
+        sug‘urtalovchilar soni jadal sur’atlarda ko‘payishi va biznesni
+        sug‘urtalashdan tushgan sug‘urta mukofoti hajmi ancha oshishi bilan
+        tavsiflanadi. O‘zbekistonda sug‘urta bozorining rivojlanishi davlat
+        miqyosida ijtimoiy rivojlanishning asosiy omillaridan biri sifatida
+        qaralgan bo‘lib, mavjud shart-sharoitlar, milliy sug‘urta an’analari va
+        madaniyati hisobga olingan xolda isloh etilgan va milliy sug‘urta bozori
+        tashkil topishi va shakllanishi sekin - astalik bilan tubdan o‘zgarib
+        borgan va bir nechta bosqichlarni bosib o‘tgan.
+      </p>
+      <p>
+        Respublikamiz sug‘urta bozori isloh etilishini birinchi bosqichi
         (1991-1996 yillar) sug‘urta bozoriga xususiy sug‘urta kompaniyalarni
         kirib kelishi va Davlat sug‘urtasini transformatsiyasi jarayoni
         boshlanishi bilan bog‘liq bo‘lib, shakllanayotgan tadbirkorlikning
-        huquqiy bazasi bilan qo‘llab-quvvatlangan. Ikkinchi boskich (1997-2002
-        yillar) ni bugungi kunda peshqadam bo‘lgan sug‘urta bozorining asosiy
-        ishtirokchilari shakllangan bosqich deb atasak mubolag‘a bo‘lmaydi. Bu
-        bosqichda, hukumatimiz rahnamoligida bozor iqtisodiyoti sharoitiga xos
-        yirik sug‘urta kompaniyalari tashkil etildi. Bu bosqichni O‘zbekistonda
-        sug‘urta faoliyatini Davlat tomonidan nazorat qilishni shakllanishi
-        bosqichi deb xam atash mumkin. O‘zbekiston sug‘urta bozori shakllanib,
-        rivojlanishining uchinchi bosqichi 2002 yil boshida “Sug‘urta faoliyati
-        to‘g‘risida”gi qonun qabul qilinishi bilan boshlanib bugungi kunda ham
-        davom etmoqda. Bu bosqichda bir qator sug‘urta agentlari faoliyatini,
-        sug‘urtalovchilarning aktivlari va majburiyatlarini tartibga soluvchi,
-        sug‘urtalovchining rahbariga va bosh buxgalteriga bo‘lgan malaka
-        talablari me’yorlari, sug‘urta tashkilotlari tomonidan xarajatlar
-        tarkibi va moliyaviy natijalarini shakllantirishning o‘ziga xos
-        hususiyatlari borasidagi, sug‘urtalovchilarning alohida sug‘urta
-        tavakkalchiliklari bo‘yicha majburiyatlari, jami majburiyatlarning yo‘l
-        qo‘yiladigan eng ko‘p xajmi va to‘lov qobiliyati me’yorlarini aniqlashni
-        tartibga soluvchi me’yoriyhuquqiy xujjatlar qayta ishlandi va yangilari
-        qabul qilindi. Bozor iqtisodiyotiga o‘tish bilan biznesni sug‘urtalash
-        tizimi shakllandi va uning har tomonlama rivojlanishiga zamin yaratildi.
+        huquqiy bazasi bilan qo‘llab-quvvatlangan.
+      </p>
+      <p>
+        Ikkinchi boskich (1997-2002 yillar) ni bugungi kunda peshqadam bo‘lgan
+        sug‘urta bozorining asosiy ishtirokchilari shakllangan bosqich deb
+        atasak mubolag‘a bo‘lmaydi. Bu bosqichda, hukumatimiz rahnamoligida
+        bozor iqtisodiyoti sharoitiga xos yirik sug‘urta kompaniyalari tashkil
+        etildi. Bu bosqichni O‘zbekistonda sug‘urta faoliyatini Davlat tomonidan
+        nazorat qilishni shakllanishi bosqichi deb xam atash mumkin. O‘zbekiston
+        sug‘urta bozori shakllanib, rivojlanishining uchinchi bosqichi 2002 yil
+        boshida “Sug‘urta faoliyati to‘g‘risida”gi qonun qabul qilinishi bilan
+        boshlanib bugungi kunda ham davom etmoqda. Bu bosqichda bir qator
+        sug‘urta agentlari faoliyatini, sug‘urtalovchilarning aktivlari va
+        majburiyatlarini tartibga soluvchi, sug‘urtalovchining rahbariga va bosh
+        buxgalteriga bo‘lgan malaka talablari me’yorlari, sug‘urta tashkilotlari
+        tomonidan xarajatlar tarkibi va moliyaviy natijalarini
+        shakllantirishning o‘ziga xos hususiyatlari borasidagi,
+        sug‘urtalovchilarning alohida sug‘urta tavakkalchiliklari bo‘yicha
+        majburiyatlari, jami majburiyatlarning yo‘l qo‘yiladigan eng ko‘p xajmi
+        va to‘lov qobiliyati me’yorlarini aniqlashni tartibga soluvchi
+        me’yoriyhuquqiy xujjatlar qayta ishlandi va yangilari qabul qilindi.
+        Bozor iqtisodiyotiga o‘tish bilan biznesni sug‘urtalash tizimi
+        shakllandi va uning har tomonlama rivojlanishiga zamin yaratildi.
         Endilikda biznesni sug‘urtalashda sug‘urta bozorining professional
         qatnashchilari erkin sharoitda bozorda o‘z mavqeini egallash uchun har
-        doimgidan faolroq harakat qila boshladilar. Sug‘urtasi biznesi
-        mamlakatimizdagi hali yaxshi rivojlanmagan, lekin sug‘urta istiqbolli
-        tarmoqlaridan biri hisoblanadi. Ushbu tarmoqdagi ahvol ko‘p jihatdan
-        milliy iqtisodiyotda va jamiyatda biznesning rivojlanganlik darajasiga
-        bog‘likdir. Hozirgi kunda mamlakatimizda sug‘urta bozori, xususan biznes
-        sug‘urtasi bozoridagi asosiy muammo- talabning etishmasligidir.
-        Respublikamizda tadbirkorlik faoliyatini kengaytirish uchun
-        tadbirkorlarga byudjetdan tashqari fondlar va tijorat banklarining
-        imtiyozli kreditlari hamda chet el kredit liniyalari va xalqaro moliya
-        tashkilotlarining grantlari ajratilmoqda. O‘z o‘rnida bu mablag‘larning
-        sug‘urtaviy kafolatini ta’minlash zarurati hosil bo‘lmoqda. Xozirgi
-        vaqtda mamlakatimiz sug‘urta kompaniyalari tomonidan sug‘urta
-        tariflarini ishlab chiqish va zaxiralarini shakllantirishda aktuar
-        hisobkitoblarning zamonaviy uslublaridan foydalanish qoniqarsizdir. Hali
-        yosh tarmoq bo‘lganligi sababli, bu sohada ishlovchi zamonaviy bilim va
-        etarli darajada malakali mutaxassislarning etishmovchiligi ham sezilib
-        turadi. Tajribali mutaxassislarning tanqisligi biznes sug‘urtasi
-        mahsulotini yaratishdan boshlab, uni sug‘urtalanuvchilarga etkazishgacha
-        va undan keyinga jarayonlarda yaqqol namoyon bo‘ladi. Sug‘urta bozori
-        professional ishtirokchilar assotsiatsiyasi o‘tkazgan tadqiqotlariga
-        ko‘ra, sug‘urta kompaniyalarda kuyidagi mutaxassislarga talab yuqori:
-        sug‘urta agentlariga, anderrayterlarga, hamda sug‘urta ekspertlariga.
-        Shuni ham ta’kidlash joizki, sug‘urta biznes buyicha mutaxassislarga
-        talab eng yuqori darajada, undan so‘ng qayta sug‘urtalash va javobgarlik
-        sug‘urtasi mutaxassislari turadi. Hozirgi vaqtda respublikamizda
-        sug‘urta biznesi, MDHning barcha respublikalaridagi kabi, bozor
-        tamoyillariga o‘tish bosqichidadir. Shuni aytish mumkinki, sug‘urta
-        biznesi mahalliy ixtisoslashgan sug‘urta kompaniyalarining sug‘urta
-        portfelida munosib o‘rinni egallashi va ular to‘plangan xalqaro va
-        mahalliy tajribalarni hisobga olgan holda o‘z faoliyatini
-        jadallashtirishlari lozim. O‘zbekiston sug‘urta bozorida biznes
-        sug‘urtasi vazifalari, bir shaxs tomonidan emas balki sug‘urta agenti,
-        sug‘urta brokeri, sug‘urta syurveyeri hamda adjaster kabi sug‘urta
-        bozorining professional ishtirokchilari tomonidan yoki sug‘urta
-        kompaniyalarining professional bilim va malakaga ega bo‘lgan xodimlari
-        tomonidan bajarilmoqda. Qaltisliklarni sug‘urtaga qabul qilish jarayoni
-        metodik ta’minlanmaganlik va sug‘urta bozori rivojlanib borayotgan bir
-        paytda sug‘urta kompaniyalarining biznes sug‘urtasi turlari bo‘yicha
-        sifatli sug‘urta mahsulotlarini amalga oshirilishiga bo‘lgan talablari
-        kuchayib bormoqda. O‘zbekiston sug‘urta bozoridagi raqobat, sug‘urta
+        doimgidan faolroq harakat qila boshladilar.
+      </p>
+      <p>
+        Sug‘urtasi biznesi mamlakatimizdagi hali yaxshi rivojlanmagan, lekin
+        sug‘urta istiqbolli tarmoqlaridan biri hisoblanadi. Ushbu tarmoqdagi
+        ahvol ko‘p jihatdan milliy iqtisodiyotda va jamiyatda biznesning
+        rivojlanganlik darajasiga bog‘likdir. Hozirgi kunda mamlakatimizda
+        sug‘urta bozori, xususan biznes sug‘urtasi bozoridagi asosiy muammo-
+        talabning etishmasligidir. Respublikamizda tadbirkorlik faoliyatini
+        kengaytirish uchun tadbirkorlarga byudjetdan tashqari fondlar va tijorat
+        banklarining imtiyozli kreditlari hamda chet el kredit liniyalari va
+        xalqaro moliya tashkilotlarining grantlari ajratilmoqda. O‘z o‘rnida bu
+        mablag‘larning sug‘urtaviy kafolatini ta’minlash zarurati hosil
+        bo‘lmoqda. Xozirgi vaqtda mamlakatimiz sug‘urta kompaniyalari tomonidan
+        sug‘urta tariflarini ishlab chiqish va zaxiralarini shakllantirishda
+        aktuar hisobkitoblarning zamonaviy uslublaridan foydalanish
+        qoniqarsizdir. Hali yosh tarmoq bo‘lganligi sababli, bu sohada ishlovchi
+        zamonaviy bilim va etarli darajada malakali mutaxassislarning
+        etishmovchiligi ham sezilib turadi. Tajribali mutaxassislarning
+        tanqisligi biznes sug‘urtasi mahsulotini yaratishdan boshlab, uni
+        sug‘urtalanuvchilarga etkazishgacha va undan keyinga jarayonlarda yaqqol
+        namoyon bo‘ladi. Sug‘urta bozori professional ishtirokchilar
+        assotsiatsiyasi o‘tkazgan tadqiqotlariga ko‘ra, sug‘urta kompaniyalarda
+        kuyidagi mutaxassislarga talab yuqori: sug‘urta agentlariga,
+        anderrayterlarga, hamda sug‘urta ekspertlariga. Shuni ham ta’kidlash
+        joizki, sug‘urta biznes buyicha mutaxassislarga talab eng yuqori
+        darajada, undan so‘ng qayta sug‘urtalash va javobgarlik sug‘urtasi
+        mutaxassislari turadi. Hozirgi vaqtda respublikamizda sug‘urta biznesi,
+        MDHning barcha respublikalaridagi kabi, bozor tamoyillariga o‘tish
+        bosqichidadir. Shuni aytish mumkinki, sug‘urta biznesi mahalliy
+        ixtisoslashgan sug‘urta kompaniyalarining sug‘urta portfelida munosib
+        o‘rinni egallashi va ular to‘plangan xalqaro va mahalliy tajribalarni
+        hisobga olgan holda o‘z faoliyatini jadallashtirishlari lozim.
+        O‘zbekiston sug‘urta bozorida biznes sug‘urtasi vazifalari, bir shaxs
+        tomonidan emas balki sug‘urta agenti, sug‘urta brokeri, sug‘urta
+        syurveyeri hamda adjaster kabi sug‘urta bozorining professional
+        ishtirokchilari tomonidan yoki sug‘urta kompaniyalarining professional
+        bilim va malakaga ega bo‘lgan xodimlari tomonidan bajarilmoqda.
+        Qaltisliklarni sug‘urtaga qabul qilish jarayoni metodik
+        ta’minlanmaganlik va sug‘urta bozori rivojlanib borayotgan bir paytda
+        sug‘urta kompaniyalarining biznes sug‘urtasi turlari bo‘yicha sifatli
+        sug‘urta mahsulotlarini amalga oshirilishiga bo‘lgan talablari kuchayib
+        bormoqda. O‘zbekiston sug‘urta bozoridagi raqobat, sug‘urta
         kompaniyalari oldiga yangi pog‘onadagi masalalarni qo‘ymokda: qanday
         qilib mijozlarni ushlab qolish, qanday qilib sug‘urta xizmatlari
         sifatini oshirish va biznes sug‘urtasi rentabelligini kerakli darajasini
@@ -595,23 +629,29 @@ export const TopicOne = () => {
         ko‘rsatib berdi. Oxirgi yillar davomida tadbirkorlarning sug‘urtaga
         bo‘lgan munosabatlari tobora yaxshilanib, fuqarolarning
         sug‘urtalovchilarga bo‘lgan ishonchi ortib, sug‘urta ishiga jiddiy
-        yondoshilmoqda. So‘ngi yillarda sug‘urta biznesi bo‘yicha qabul qilingan
-        qonunlar barcha sug‘urta kompaniyalarda o‘zlarining yangi sug‘urta turi
-        bo‘yicha sug‘urta mahsulotlarini kengaytirish ustida ish olib
-        borishlariga turtki bo‘ldi. Buning natijasida respublikamizning barcha
-        hududlarida agentlik tarmoqlarini moddiy texnika ba’zalari
-        mustahkamlandi va mutaxassiclar tayyorlandi. Sug‘urta bozorida
-        sug‘urtasi biznesini xarakterlovchi asosiy ko‘rsatkichlardan biri,
-        shubhasiz yil davomida sug‘urtalovchilar tomonidan yig‘ilgan sug‘urta
-        mukofotlarining hajmi hisoblanadi. Sug‘urta bozorida sug‘urta
-        biznesining kengayish hajmini, shuningdek rivojlanish darajasini
-        kuzatish uchun sug‘urta mukofotlari hajmi va tarkibi bilan bog‘liq
-        ko‘rsatkichlardan foydalanish mumkin. Bozor munosabatlarining
-        rivojlanishi turli nodavlat mulkchilik shakllari va xususiy
-        manfaatdorlik tushunchalari rivojlanib, sug‘urta biznesining ahamiyatini
-        tobora oshirib, ularga bo‘lgan ehtiyoj va talabning ortishiga olib
-        kelmoqda. Tahlillarga ko‘ra, respublikamiz bo‘yicha biznesni
-        sug‘urtalash hizmatlari ko‘rsatilishi qamrovi oxirgi besh yilda
+        yondoshilmoqda.
+      </p>
+      <p>
+        So‘ngi yillarda sug‘urta biznesi bo‘yicha qabul qilingan qonunlar barcha
+        sug‘urta kompaniyalarda o‘zlarining yangi sug‘urta turi bo‘yicha
+        sug‘urta mahsulotlarini kengaytirish ustida ish olib borishlariga turtki
+        bo‘ldi. Buning natijasida respublikamizning barcha hududlarida agentlik
+        tarmoqlarini moddiy texnika ba’zalari mustahkamlandi va mutaxassiclar
+        tayyorlandi. Sug‘urta bozorida sug‘urtasi biznesini xarakterlovchi
+        asosiy ko‘rsatkichlardan biri, shubhasiz yil davomida sug‘urtalovchilar
+        tomonidan yig‘ilgan sug‘urta mukofotlarining hajmi hisoblanadi.
+      </p>
+      <p>
+        Sug‘urta bozorida sug‘urta biznesining kengayish hajmini, shuningdek
+        rivojlanish darajasini kuzatish uchun sug‘urta mukofotlari hajmi va
+        tarkibi bilan bog‘liq ko‘rsatkichlardan foydalanish mumkin.
+      </p>
+      <p>
+        Bozor munosabatlarining rivojlanishi turli nodavlat mulkchilik shakllari
+        va xususiy manfaatdorlik tushunchalari rivojlanib, sug‘urta biznesining
+        ahamiyatini tobora oshirib, ularga bo‘lgan ehtiyoj va talabning
+        ortishiga olib kelmoqda. Tahlillarga ko‘ra, respublikamiz bo‘yicha
+        biznesni sug‘urtalash hizmatlari ko‘rsatilishi qamrovi oxirgi besh yilda
         sezilarli darajada oshgan. Bu holat sug‘urta kompaniyalarni sug‘urta
         bozorida biznes sug‘urtasi mahsulotlarini taklif qilishi va mijozlarga
         sifatli sug‘urta xizmatlari ko‘rsatilishi yaxshilanib, biznes sug‘urtasi
@@ -619,35 +659,45 @@ export const TopicOne = () => {
         mamlakatimiz sug‘urta bozorining keskin sur’atlar bilan rivojlanib
         borishiga guvoh bo‘lmoqdamiz. Buni hukumatimiz tomonidan sug‘urta
         sohasini rivojlantirishga qaratilgan alohida e’tibor tufayli deyish
-        mumkin. Sug‘urta faoliyatini yanada takomillashtirish dasturi doirasida
-        hukumat miqyosida sohaga oid bir nechta qonun va qator me’yoriy
-        hujjatlar ishlab chiqilib, sug‘urta bozori ishtirokchilariga
-        faoliyatlarini yanada rivojlantirish uchun keng sharoitlar yaratilib
-        berildi. Shu bilan birga, jahon sug‘urta bozori bosib o‘tgan yo‘l va
-        O‘zbekiston sug‘urta bozorida to‘plangan tajribaga asoslanib doimiy
-        tarzda qonunchilik hujjatlari takomillashtirib borilmoqda. O‘z
-        navbatida, sug‘urta tashkilotlari ham bunday e’tiborga javoban
-        respublika ijtimoiy-iqtisodiy hayotini barqarorlashtirishda va
-        tadbirkorlarning ishlash farovonligini yanada oshirishda o‘zlarining
-        munosib ulushini qo‘shib kelmokda. Biznesni sug‘urtalash turlaridan
-        baxtsiz hodisalardan sug‘urtalash, ishlab chiqarish imoratlari va
-        mol-mulkini sug‘urtalash, transport vositalari sug‘urtasi, garovga
-        qo‘yilgan mulkni sug‘urtalash, ipoteka sug‘urtasi, lizinga berilgan mulk
-        sug‘urtasi, moliyaviy tavakkalchiliklarda sug‘urtalash kabi qator
-        sug‘urta turlari bilan aholiga xizmat ko‘rsatilmoqda. Tadbirkorlar bilan
-        ishlashni faollashtirish va mazkur sug‘urta turlarini rivojlantirish
-        borasida bir qator rejali chora-tadbirlar amalga oshirilayotgan bo‘lib,
-        bular qatoriga kompaniyada mazkur segmentga oid reklama ishlarini
-        kuchaytirish, ommaviy axborot vositalarida reklama roliklarini
-        joylashtirish, kompaniya tomonidan tadbirkorlarga ko‘rsatiladigan
-        sug‘urta turlari bo‘yicha tahliliy materiallar tayyorlash va chop etib
-        borish, sug‘urta agentlarining bevosita tadbirkorlar bilan joylarda
-        ishlarini takomillashtirish maqsadida har bir filial va bo‘linmalarda
-        plastik kartochkalar orqali hisob-kitob qilish uchun simsiz ishlaydigan
-        terminal bilan ta’minlashni bosqichma-bosqich amalga oshirishni kiritish
-        mumkin. Sug‘urta kompaniyalari tomonidan ko‘rsatilayotgan sug‘urta
-        xizmatlarida imtiyozlarga alohida e’tibor qaratilmoqda. Sug‘urta
-        bozorini rivojlantirish hamda yuridik va jismoniy shaxslarning biznesini
+        mumkin.
+      </p>
+      <p>
+        Sug‘urta faoliyatini yanada takomillashtirish dasturi doirasida hukumat
+        miqyosida sohaga oid bir nechta qonun va qator me’yoriy hujjatlar ishlab
+        chiqilib, sug‘urta bozori ishtirokchilariga faoliyatlarini yanada
+        rivojlantirish uchun keng sharoitlar yaratilib berildi. Shu bilan birga,
+        jahon sug‘urta bozori bosib o‘tgan yo‘l va O‘zbekiston sug‘urta bozorida
+        to‘plangan tajribaga asoslanib doimiy tarzda qonunchilik hujjatlari
+        takomillashtirib borilmoqda. O‘z navbatida, sug‘urta tashkilotlari ham
+        bunday e’tiborga javoban respublika ijtimoiy-iqtisodiy hayotini
+        barqarorlashtirishda va tadbirkorlarning ishlash farovonligini yanada
+        oshirishda o‘zlarining munosib ulushini qo‘shib kelmokda.
+      </p>
+      <p>
+        Biznesni sug‘urtalash turlaridan baxtsiz hodisalardan sug‘urtalash,
+        ishlab chiqarish imoratlari va mol-mulkini sug‘urtalash, transport
+        vositalari sug‘urtasi, garovga qo‘yilgan mulkni sug‘urtalash, ipoteka
+        sug‘urtasi, lizinga berilgan mulk sug‘urtasi, moliyaviy
+        tavakkalchiliklarda sug‘urtalash kabi qator sug‘urta turlari bilan
+        aholiga xizmat ko‘rsatilmoqda.
+      </p>
+      <p>
+        Tadbirkorlar bilan ishlashni faollashtirish va mazkur sug‘urta turlarini
+        rivojlantirish borasida bir qator rejali chora-tadbirlar amalga
+        oshirilayotgan bo‘lib, bular qatoriga kompaniyada mazkur segmentga oid
+        reklama ishlarini kuchaytirish, ommaviy axborot vositalarida reklama
+        roliklarini joylashtirish, kompaniya tomonidan tadbirkorlarga
+        ko‘rsatiladigan sug‘urta turlari bo‘yicha tahliliy materiallar
+        tayyorlash va chop etib borish, sug‘urta agentlarining bevosita
+        tadbirkorlar bilan joylarda ishlarini takomillashtirish maqsadida har
+        bir filial va bo‘linmalarda plastik kartochkalar orqali hisob-kitob
+        qilish uchun simsiz ishlaydigan terminal bilan ta’minlashni
+        bosqichma-bosqich amalga oshirishni kiritish mumkin.
+      </p>
+      <p>
+        Sug‘urta kompaniyalari tomonidan ko‘rsatilayotgan sug‘urta xizmatlarida
+        imtiyozlarga alohida e’tibor qaratilmoqda. Sug‘urta bozorini
+        rivojlantirish hamda yuridik va jismoniy shaxslarning biznesini
         sug‘urtalashda keng qatnashishini rag‘batlantirish uchun mol-mulkni va
         hayotni uzoq muddatga sug‘urtalash bo‘yicha sug‘urta mukofotlari soliqqa
         tortilmasligi, ko‘rilgan zararlar bo‘yicha kompaniya tomonidan to‘langan
@@ -656,15 +706,19 @@ export const TopicOne = () => {
         hisoblashda bir qator sug‘urta qildiruvchilarga sug‘urta mukofoti
         summasining 50 foizi miqdorida siylov berilishi ko‘zda tutilgan.
       </p>
-
       <h4>Nazorat savollari:</h4>
-      <p>
-        1. Sug‘urta biznesi deganda nimani tushunasiz. 2. Sug‘urta biznesining
-        huquqiy asoslarini tushuntirib bering. 3. Sug‘urta tashkilotlarida
-        biznes jarayonini tashkil etish asoslarinin aytib bering. 4. Sug‘urta
-        tashkilotining biznes jarayoniga ta’sir etuvchi omillarni tushuntirib
-        bering.
-      </p>
+      <ol>
+        <li>Sug‘urta biznesi deganda nimani tushunasiz.</li>
+        <li>Sug‘urta biznesining huquqiy asoslarini tushuntirib bering.</li>
+        <li>
+          Sug‘urta tashkilotlarida biznes jarayonini tashkil etish asoslarinin
+          aytib bering.
+        </li>
+        <li>
+          Sug‘urta tashkilotining biznes jarayoniga ta’sir etuvchi omillarni
+          tushuntirib bering.
+        </li>
+      </ol>
     </div>
   );
 };

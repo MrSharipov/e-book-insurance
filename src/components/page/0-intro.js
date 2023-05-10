@@ -1,12 +1,15 @@
 import React from "react";
 import "./page.scss";
+import mainImg from "../../files/insurance.webp";
+
 
 export const TopicZero = () => {
   return (
     <div className="page">
       <h3>Kirish</h3>
-      <img className="mainTopic"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsazgrK44UTkyhpF49oJG5-DfhJ_QEDAzthHwyBpUyra42BZNdxRZznbRJJUaXn_MtGAA&usqp=CAU"
+      <img
+        className="mainTopic"
+        src={mainImg}
         alt="insurance"
       />
       <p>
@@ -15,28 +18,36 @@ export const TopicZero = () => {
         tashkilotlari faoliyatini qo’llab-quvvatlash, shuningdek, ushbu sohada
         iste’molchilarning huquqlarini va qonuniy manfaatlarini himoya qilish
         uchun qulay shart-sharoitlar yaratish chora-tadbirlari izchil amalga
-        oshirilmoqda. 2017-2021 yillarda O‘zbekiston Respublikasini
-        rivojlantirishning beshta ustuvor yo‘nalishi bo‘yicha Harakatlar
-        strategiyasini “Faol investitsiyalar va ijtimoiy rivojlanish yili”da
-        amalga oshirishga oid davlat dasturiga sug‘urta bozorini isloh qilish va
-        jadal rivojlantirish maqsadida “Sug‘urta faoliyati to‘g‘risida”gi
-        Qonunni yangi tahrirda ishlab chiqish, barcha majburiy sug‘urta
-        turlarini yagona hujjatga mujassamlashtirish va majburiy
-        sug‘urtalanadigan faoliyat turlarini kengaytirish, banklarga sug‘urta
-        agenti maqomini berish hamda interaktiv, shu jumladan onlayn sug‘urta
-        xizmatlarini kengaytirish masalalari kiritildi . Shu bilan bir qatorda
+        oshirilmoqda.
+      </p>
+      <p>
         2017-2021 yillarda O‘zbekiston Respublikasini rivojlantirishning beshta
-        ustuvor yo‘nalishi bo‘yicha harakatlar strategiyasini “Faol
-        tadbirkorlik, innovatsion g‘oyalar va texnologiyalarni qo‘llab-quvvatlar
-        yili”da ilg‘or xorijiy tajriba asosida tibbiy sug‘urta mexanizmlarini
-        bosqichma-bosqich joriy etish bo‘yicha konsepsiya ishlab chiqish kabi
-        vazifalar belgilab berildi . Shuningdek O’zbekiston Respublikasi
-        Prezidentining 2019 yil 2 avgustda “O’zbekiston Respublikasining
-        sug’urta bozorini isloh qilish va uning jadal rivojlanishini ta’minlash
-        chora-tadbirlari to’g’risida”gi PQ-4412-sonli qaroriga asosan
-        O’zbekiston Respublikasining sug’urta bozorini isloh qilish va jadal
-        rivojlantirishning asosiy yo’nalishlari belgilab berildi . Mazkur
-        o'quv-qo'llanmada sug‘urta biznesi fanining predmeti va ob’yekti,
+        ustuvor yo‘nalishi bo‘yicha Harakatlar strategiyasini “Faol
+        investitsiyalar va ijtimoiy rivojlanish yili”da amalga oshirishga oid
+        davlat dasturiga sug‘urta bozorini isloh qilish va jadal rivojlantirish
+        maqsadida “Sug‘urta faoliyati to‘g‘risida”gi Qonunni yangi tahrirda
+        ishlab chiqish, barcha majburiy sug‘urta turlarini yagona hujjatga
+        mujassamlashtirish va majburiy sug‘urtalanadigan faoliyat turlarini
+        kengaytirish, banklarga sug‘urta agenti maqomini berish hamda
+        interaktiv, shu jumladan onlayn sug‘urta xizmatlarini kengaytirish
+        masalalari kiritildi .
+      </p>
+      <p>
+        Shu bilan bir qatorda 2017-2021 yillarda O‘zbekiston Respublikasini
+        rivojlantirishning beshta ustuvor yo‘nalishi bo‘yicha harakatlar
+        strategiyasini “Faol tadbirkorlik, innovatsion g‘oyalar va
+        texnologiyalarni qo‘llab-quvvatlar yili”da ilg‘or xorijiy tajriba
+        asosida tibbiy sug‘urta mexanizmlarini bosqichma-bosqich joriy etish
+        bo‘yicha konsepsiya ishlab chiqish kabi vazifalar belgilab berildi .
+        Shuningdek O’zbekiston Respublikasi Prezidentining 2019 yil 2 avgustda
+        “O’zbekiston Respublikasining sug’urta bozorini isloh qilish va uning
+        jadal rivojlanishini ta’minlash chora-tadbirlari to’g’risida”gi
+        PQ-4412-sonli qaroriga asosan O’zbekiston Respublikasining sug’urta
+        bozorini isloh qilish va jadal rivojlantirishning asosiy yo’nalishlari
+        belgilab berildi .
+      </p>
+      <p>
+        Mazkur o'quv-qo'llanmada sug‘urta biznesi fanining predmeti va ob’yekti,
         sug‘urta biznesini sug‘urta faoliyati bo‘yicha turkumlanishi, sug‘urta
         mahsulotini sotish va uni yaratish texnologiyasi, sug‘urta bozorining
         institutsional tuzilishi va uning umumiy xarakteristikasi, sug‘urta
