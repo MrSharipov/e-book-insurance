@@ -12,6 +12,9 @@ import { TopicSix } from "./components/page/6-topic";
 import { TopicSeven } from "./components/page/7-topic";
 import { TopicEight } from "./components/page/8-topic";
 import { TopicNine } from "./components/page/9-topic";
+import { TopicTen } from "./components/page/10-topic";
+import { TopicEleven } from "./components/page/11-topic";
+import { TopicTwelve } from "./components/page/12-topic";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./app.scss";
 
@@ -36,6 +39,9 @@ function App() {
             <Route path="/seven" element={<TopicSeven />} />
             <Route path="/eight" element={<TopicEight />} />
             <Route path="/nine" element={<TopicNine />} />
+            <Route path="/ten" element={<TopicTen />} />
+            <Route path="/eleven" element={<TopicEleven />} />
+            <Route path="/twelve" element={<TopicTwelve />} />
           </Routes>
         </div>
         {/* <Footer /> */}

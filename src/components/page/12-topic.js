@@ -2,7 +2,7 @@ import React from "react";
 import "./page.scss";
 import mainImg from "../../files/insurance.webp";
 
-export const TopicEight = () => {
+export const TopicTwelve = () => {
   return (
     <div className="page">
       <h3>Lorem ipsum dolor sit amet.</h3>

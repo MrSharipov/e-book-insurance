@@ -2,16 +2,12 @@ import React from "react";
 import "./page.scss";
 import mainImg from "../../files/insurance.webp";
 
-
 export const TopicSix = () => {
   return (
     <div className="page">
-      <h2>Lorem ipsum dolor sit amet.</h2>
-      <img
-        src={mainImg}
-        alt="insurance"
-        className="mainTopic"
-      />
+      <h3>Lorem ipsum dolor sit amet.</h3>
+      <h4>Lorem ipsum dolor sit amet.</h4>
+      <img src={mainImg} className="mainTopic" alt="insurance" />
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
         perspiciatis ea excepturi dolorem animi saepe qui quaerat sequi,

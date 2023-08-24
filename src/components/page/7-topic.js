@@ -5,12 +5,9 @@ import "./page.scss";
 export const TopicSeven = () => {
   return (
     <div className="page">
-      <h2>Lorem ipsum dolor sit amet.</h2>
-      <img
-        src={mainImg}
-        className="mainTopic"
-        alt="insurance"
-      />
+      <h3>Lorem ipsum dolor sit amet.</h3>
+      <h4>Lorem ipsum dolor sit amet.</h4>
+      <img src={mainImg} className="mainTopic" alt="insurance" />
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
         perspiciatis ea excepturi dolorem animi saepe qui quaerat sequi,
