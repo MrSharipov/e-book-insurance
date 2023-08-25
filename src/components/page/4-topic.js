@@ -969,7 +969,7 @@ export const TopicFour = () => {
         <li>
           tegishli bitim mavjud bo’lgan taqdirda, sug’urtalovchining
           torshipig’iga ko’ra va uning hisobidan sug’urta to’lovlari
-          to’lanishini tashkil etishi shart.{" "}
+          to’lanishini tashkil etishi shart.
         </li>
       </ul>
       <p>
